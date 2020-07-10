@@ -147,15 +147,27 @@ color: #005792}
     display: table;
   }
 
+  .column1 {
+    float: left;
+    width: 33.33%;
+    padding: 5px;
+  }
+  
+   
+
   .button{
     float: right;
-    padding: 6px;
-    margin-top: 8px;
-    margin-right: 16px;
+    border: none;
+    
+    padding: 10px 10px ;
     background: #D1F4FA;
     border: none;
     cursor: pointer;
     color: #005792;
+    font-size: 16px;
+    display: inline-block;
+    text-align: center;
+    text-decoration: none;
   }
 
   .button:hover {
