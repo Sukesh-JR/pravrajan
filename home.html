@@ -12,11 +12,15 @@
         <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
         <style>
-            .carousel-inner img {
+            .container {
                  width: 100%;
                 height: 100%;
             }
-        </style>
+
+            
+
+
+            </style>
 
     </head>
         
@@ -28,17 +32,28 @@
         <div class="topnav">
             <a href="#home"><img src="favicon.png" width="50px" height="50px"></a>
             <a class="active" href="#home"> HOME </a>
-            <a class="passive" href="#resigter">Register</a>
+            <div class="dropdown">
+                <button class="dropbtn">Register</button>
+                <div class="dropdown-content">
+                  <a href="#register_co">Register Your Company Here</a>
+                  <a href="#register_mi">Register Yourself here - Migrants</a>
+                </div>
+            </div>
             <a class="passive" href="#login">Login</a>
             <a class="passive" href="#contact">Contact Us</a>
             <div class="search-container">
                 <form action="/action_page.php">
-                    <input type="text" placeholder="type here">
-                    <button type="submit">Search</button>
+                    <input type="text" placeholder="search">
+                    <button type="submit">Submit</button>
                 </form>                
             </div>
         </div>
 
+         
+        <hr class="featurette-divider">
+
+
+        <div class="container">
         <div id="demo" class="carousel slide" data-ride="carousel">
             <ul class="carousel-indicators">
               <li data-target="#demo" data-slide-to="0" class="active"></li>
@@ -81,50 +96,122 @@
                 <span class="carousel-control-next-icon"></span>
             </a>
 
-
-            
-
         </div>
 
-        <hr class="featurette-divider">
+        <div class="container">
 
-    <div class="row featurette">
-      <div class="col-md-7">
-        <h2 class="featurette-heading">First featurette heading. <span class="text-muted">It’ll blow your mind.</span></h2>
-        <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
-      </div>
-      <div class="col-md-5">
-        <svg class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500" height="500" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: 500x500"><title>Placeholder</title><rect width="100%" height="100%" fill="#eee"/><text x="50%" y="50%" fill="#aaa" dy=".3em">500x500</text></svg>
-      </div>
-    </div>
+            <hr class="featurette-divider">
+        
+            <div class="row">
+                <div class="column">
+                  <img src="logo.png" alt="Snow" style="width:100%">
+                </div>
+                <div class="column">
+                    <h2 class="featurette-heading">This First Heading
+                        <span class="text-muted">Will Catch Your Eye</span>
+                    </h2>
+                    <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
+                    <div class="button">
+                        <form action="/action_page.php">
+                            <button type="submit"> click here to register </button>
+                        </form>
+                    </div>
+                </div>
 
-    <hr class="featurette-divider">
+        <div class="container">
 
-    <div class="row featurette">
-      <div class="col-md-7 order-md-2">
-        <h2 class="featurette-heading">Oh yeah, it’s that good. <span class="text-muted">See for yourself.</span></h2>
-        <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
-      </div>
-      <div class="col-md-5 order-md-1">
-        <svg class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500" height="500" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: 500x500"><title>Placeholder</title><rect width="100%" height="100%" fill="#eee"/><text x="50%" y="50%" fill="#aaa" dy=".3em">500x500</text></svg>
-      </div>
-    </div>
-
-    <hr class="featurette-divider">
-
-    <div class="row featurette">
-      <div class="col-md-7">
-        <h2 class="featurette-heading">And lastly, this one. <span class="text-muted">Checkmate.</span></h2>
-        <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
-      </div>
-      <div class="col-md-5">
-        <svg class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500" height="500" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: 500x500"><title>Placeholder</title><rect width="100%" height="100%" fill="#eee"/><text x="50%" y="50%" fill="#aaa" dy=".3em">500x500</text></svg>
-      </div>
-    </div>
-
-    <hr class="featurette-divider">
+            <hr class="featurette-divider">
 
 
+            <div class="row">
+                <div class="column">
+                    <h2 class="featurette-heading">This First Heading
+                         <span class="text-muted">Will Catch Your Eye</span>
+                    </h2>
+                    <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
+                    <div class="button">
+                        <button type="submit"> click here to register </button>
+                    </div>
+                </div>
+                <div class="column">
+                      <img src="logo.png" alt="Snow" style="width:100%">
+                </div>
+
+        <div class="container">
+
+            <hr class="featurette-divider">
+                
+            <div class="row">
+                <div class="column">
+                    <img src="logo.png" alt="Snow" style="width:100%">
+                  </div>
+                  <div class="column">
+                      <h2 class="featurette-heading">This First Heading
+                          <span class="text-muted">Will Catch Your Eye</span>
+                      </h2>
+                      <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
+                      <div class="button">
+                          <button type="submit"> click here to register </button>
+                      </div>
+                  </div>
+
+        <div class="container">
+  
+              <hr class="featurette-divider">
+  
+  
+              <div class="row">
+                  <div class="column">
+                      <h2 class="featurette-heading">This First Heading
+                           <span class="text-muted">Will Catch Your Eye</span>
+                      </h2>
+                      <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
+                      <div class="button">
+                          <button type="submit"> click here to register </button>
+                      </div>
+                  </div>
+                  <div class="column">
+                        <img src="logo.png" alt="Snow" style="width:100%">
+                  </div>
+          
+              <hr class="featurette-divider">
+
+
+        <div class="container">
+  
+                <hr class="featurette-divider">
+    
+    
+                <div class="row">
+                    <div class="column">
+                        <figure>
+                            <img src="logo.png" alt="Snow" style="width:100%">
+                            <figcaption>Text here
+                                <div class="button">
+                                    <button type="submit"> click here to register </button>
+                                </div>
+                            </figcaption>
+                        
+                        </figure>
+                    </div>
+                    <div class="column">
+                        <figure>
+                            <img src="logo.png" alt="Snow" style="width:100%">
+                            <figcaption>Text here
+                                <div class="button">
+                                    <button type="submit"> click here to register </button>
+                                </div>
+                            </figcaption>
+                        
+                        </figure>
+                    </div>
+                        
+                </div>
+            
+                <hr class="featurette-divider">
+
+                        
+      
         
 
        
