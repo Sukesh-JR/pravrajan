@@ -32,26 +32,486 @@
 
         
         
-        <div class="topnav">
-            
-            <a class="passive" href="index.html"> HOME </a>
-            <a class="passive" href="register_bu.html">Register Your Company Here</a>
-            <a class="active" href="register_mi.html">Register Yourself here - Migrants</a> 
-            <a class="passive" href="login.html">Login</a>
-            <a class="passive" href="about.html">About Us</a>
-            <a class="passive" href="contact.html">Contact Us</a>
-            <a class="passive" href="list_mi.html">Workers demographics</a>
-            <a class="passive" href="List_co.html">Vacancies</a>
-            <div class="search-container">
-                <form action="/action_page.php">
-                    <input type="text" placeholder="search">
-                    <button type="submit">Submit</button>
-                </form>                
-            </div>
-        </div>
+       
 
          
         <hr class="featurette-divider">
+
+        <form>
+            <div class="row">
+              <div class="col">
+                  First Name
+                <input type="text" class="form-control" placeholder="First name">
+              </div>
+              <div class="col">
+                  Last Name
+                <input type="text" class="form-control" placeholder="Last name">
+              </div>
+            </div>
+        </form>
+<p>
+
+</p>
+        <form>
+            <div class="row">
+              <div class="col">
+                  Age
+                <input type="number" class="form-control" placeholder="Age">
+              </div>
+              <div class="col">
+                  Email Id if any
+                <input type="email" class="form-control" placeholder="Email">
+              </div>
+              <div class="col">
+                Phone Number
+              <input type="number" class="form-control" placeholder="Phone number">
+            </div>
+            </div>
+        </form>
+        <p>
+
+        </p>
+
+        <form>
+            <div class="row">
+              <div class="col">
+                  Permanent Address
+                <input type="text" class="form-control" placeholder="Permanent Address">
+              </div>
+              <div class="col">
+                  Aadhar Number
+                <input type="number" class="form-control" placeholder="Aadhar number">
+              </div>
+            </div>
+        </form>
+
+        <p>
+        
+        </p>
+
+        <form>
+            <div class="row">
+              <div class="col">
+                  Highest Educational Qualification
+                <input type="text" class="form-control" placeholder="Highest Educational Qualification">
+              </div>
+              <div class="col">
+                  What do they do for living ?
+                <input type="text" class="form-control" placeholder="type here">
+              </div>
+            </div>
+        </form>
+        <p>
+            
+        </p>
+
+        <form>
+            <div class="row">
+              <div class="col">
+                  Bank Account Number if any
+                <input type="password" class="form-control" placeholder="Bank acc details">
+              </div>
+              <div class="col">
+                  <label for="Work">What do you do for living</label>
+                        <select name="work" id="work">
+                            <option value="1">Agarbatti making</option>
+                            <option value="2">Agriculture</option>
+                            <option value="3">Agriculture machine handling</option>
+                            <option value="4">Anganwadi Workers</option>
+                            <option value="5">animal husbandry</option>
+                            <option value="6">Arrack and Liquor producton and vending</option>
+                            <option value="7">Asha workers</option>
+                            <option value="8">Audio and VIsual Workers</option>
+                            <option value="9">Automobile work</option>
+                            <option value="127">other</option>
+                            <input type="text" class="form-control" placeholder="other, please mention"> 
+                         </select>
+                
+              </div>
+            </div>
+        </form>
+        <p>
+
+        </p>
+
+        <form>
+            <div class="row">
+              <div class="col">
+                  Experience in the type of work done
+                <input type="number" class="form-control" placeholder="Experience">
+              </div>
+              <div class="col">
+                  Languages they know to speak 
+                <input type="text" class="form-control" placeholder="languages">
+              </div>
+            </div>
+        </form>
+        <p>
+            
+        </p>
+
+        <form>
+            <div class="row">
+              <div class="col">
+                Do you have preference in they state do you want to work?  
+                <div>
+                <input type="radio" id="Yes" name="responce_state" value="Yes">
+                <label for="Yes"><input type="text" class="form-control" placeholder="Yes, please mention"> </label><br>
+               
+                
+                <input type="radio" id="No" name="responce_state" value="No">
+                <label for="No">No   __  You choose Pan INDIA </label><br>
+                
+               
+              </div></div>
+              <div class="col">
+                Job type
+                <div>
+                <input type="radio" id="Permanent" name="responce_job" value="Permanent">
+                <label for="Permanenet">Permanenet</label><br>
+                                
+                <input type="radio" id="Temporary" name="responce_job" value="Temporary">
+                <label for="Temporary">Temporary</label><br>
+                </div>
+              </div>
+
+              <div class="col">
+                Corona test taken
+                <div>
+                <input type="radio" id="Yes" name="responce_covid" value="Yes">
+                <label for="Yes">Yes</label><br>
+                                
+                <input type="radio" id="No" name="responce_covid" value="NO">
+                <label for="No">No</label><br>
+                </div>
+              </div>
+            </div>
+        </form>
+        <p>
+            
+        </p>
+
+
+        <form>
+            <div class="row">
+              <div class="col">
+                Do you want any coaching on skill development from our side?
+                <div>
+                <input type="radio" id="Yes" name="responce_skill" value="Yes">
+                <label for="Yes"><input type="text" class="form-control" placeholder="Yes, please mention"> </label><br>
+               
+                
+                <input type="radio" id="No" name="responce_skill" value="No">
+                <label for="No">No</label><br>
+                
+               
+              </div></div>
+              <div class="col">
+                Please choose the schemes that you are in to:
+                <div>
+                <input type="checkbox" id="MGNERGA" name="responc_scheme" value="MGNERGA">
+                <label for="MGNERGA">MGNERGA</label><br>
+                <input type="checkbox" id="PMJJB" name="responc_scheme" value="PMJJB">
+                <label for="PMJJB">Pradhan Mantri Jeevan Jyoti Bima Yojana </label><br>              
+                <input type="checkbox" id="PMYMY" name="responce_scheme" value="PMYMY">
+                <label for="PMYMY">PM Shram Yogi Maan-dhan Yojana</label><br>
+                <input type="text" class="form-control" placeholder="others, please mention"> 
+
+                </div>
+              </div>
+
+              <div class="col">
+                Married
+                <div>
+                <input type="radio" id="Yes" name="responce_marriage" value="Yes">
+                <label for="Yes">Yes</label><br>
+                                
+                <input type="radio" id="No" name="responce_marriage" value="NO">
+                <label for="No">No</label><br>
+                </div>
+              </div>
+            </div>
+        </form>
+        <p>
+            
+        </p>
+
+<!-- if married -->
+<hr class="featurette-divider">
+
+       here
+<hr class="featurette-divider">
+
+<form>
+    <div class="row">
+      <div class="col">
+          First Name
+        <input type="text" class="form-control" placeholder="First name">
+      </div>
+      <div class="col">
+          Last Name
+        <input type="text" class="form-control" placeholder="Last name">
+      </div>
+    </div>
+</form>
+<p>
+
+</p>
+<form>
+    <div class="row">
+      <div class="col">
+          Age
+        <input type="number" class="form-control" placeholder="Age">
+      </div>
+      <div class="col">
+          Email Id if any
+        <input type="email" class="form-control" placeholder="Email">
+      </div>
+      <div class="col">
+        Phone Number
+      <input type="number" class="form-control" placeholder="Phone number">
+    </div>
+    </div>
+</form>
+<p>
+
+</p>
+
+<form>
+    <div class="row">
+      <div class="col">
+          Permanent Address
+        <input type="text" class="form-control" placeholder="Permanent Address">
+      </div>
+      <div class="col">
+          Aadhar Number
+        <input type="number" class="form-control" placeholder="Aadhar number">
+      </div>
+    </div>
+</form>
+
+<p>
+
+</p>
+
+<form>
+    <div class="row">
+      <div class="col">
+          Highest Educational Qualification
+        <input type="text" class="form-control" placeholder="Highest Educational Qualification">
+      </div>
+      <div class="col">
+          What do they do for living ?
+        <input type="text" class="form-control" placeholder="type here">
+      </div>
+    </div>
+</form>
+<p>
+    
+</p>
+
+<form>
+    <div class="row">
+      <div class="col">
+          Bank Account Number if any
+        <input type="password" class="form-control" placeholder="Bank acc details">
+      </div>
+      <div class="col">
+          <label for="Work">What do you do for living</label>
+                <select name="work" id="work">
+                    <option value="1">Agarbatti making</option>
+                    <option value="2">Agriculture</option>
+                    <option value="3">Agriculture machine handling</option>
+                    <option value="4">Anganwadi Workers</option>
+                    <option value="5">animal husbandry</option>
+                    <option value="6">Arrack and Liquor producton and vending</option>
+                    <option value="7">Asha workers</option>
+                    <option value="8">Audio and VIsual Workers</option>
+                    <option value="9">Automobile work</option>
+                    <option value="127">other</option>
+                    <input type="text" class="form-control" placeholder="other, please mention"> 
+                 </select>
+        
+      </div>
+    </div>
+</form>
+<p>
+
+</p>
+
+<form>
+    <div class="row">
+      <div class="col">
+          Experience in the type of work done
+        <input type="number" class="form-control" placeholder="Experience">
+      </div>
+      <div class="col">
+          Languages they know to speak 
+        <input type="text" class="form-control" placeholder="languages">
+      </div>
+    </div>
+</form>
+<p>
+    
+</p>
+
+<form>
+    <div class="row">
+      <div class="col">
+        Do you have preference in they state do you want to work?  
+        <div>
+        <input type="radio" id="Yes" name="responce_Spo_state" value="Yes">
+        <label for="Yes"><input type="text" class="form-control" placeholder="Yes, please mention"> </label><br>
+       
+        
+        <input type="radio" id="No" name="responce_Spo_state" value="No">
+        <label for="No">No   __  You choose Pan INDIA </label><br>
+        
+       
+      </div></div>
+      <div class="col">
+        Job type
+        <div>
+        <input type="radio" id="Permanent" name="responce_Spo_job" value="Permanent">
+        <label for="Permanenet">Permanenet</label><br>
+                        
+        <input type="radio" id="Temporary" name="responce_Spo_job" value="Temporary">
+        <label for="Temporary">Temporary</label><br>
+        </div>
+      </div>
+
+      <div class="col">
+        Corona test taken
+        <div>
+        <input type="radio" id="Yes" name="responce_spo_covid" value="Yes">
+        <label for="Yes">Yes</label><br>
+                        
+        <input type="radio" id="No" name="responce_Spo_covid" value="NO">
+        <label for="No">No</label><br>
+        </div>
+      </div>
+    </div>
+</form>
+<p>
+    
+</p>
+
+
+<form>
+    <div class="row">
+      <div class="col">
+        Do you want any coaching on skill development from our side?
+        <div>
+        <input type="radio" id="Yes" name="responce_spo_skill" value="Yes">
+        <label for="Yes"><input type="text" class="form-control" placeholder="Yes, please mention"> </label><br>
+       
+        
+        <input type="radio" id="No" name="responce_spo_skill" value="No">
+        <label for="No">No</label><br>
+        
+       
+      </div></div>
+      <div class="col">
+        Please choose the schemes that you are in to:
+        <div>
+        <input type="checkbox" id="MGNERGA" name="responc_spo_scheme" value="MGNERGA">
+        <label for="MGNERGA">MGNERGA</label><br>
+        <input type="checkbox" id="PMJJB" name="responc_spo_scheme" value="PMJJB">
+        <label for="PMJJB">Pradhan Mantri Jeevan Jyoti Bima Yojana </label><br>              
+        <input type="checkbox" id="PMYMY" name="responce_spo_scheme" value="PMYMY">
+        <label for="PMYMY">PM Shram Yogi Maan-dhan Yojana</label><br>
+        <input type="text" class="form-control" placeholder="others, please mention"> 
+
+        </div>
+      </div>
+
+      <div class="col">
+        Do you have children
+        <div>
+        <input type="radio" id="Yes" name="responce_children" value="Yes">
+        <label for="Yes">Yes</label><br>
+                        
+        <input type="radio" id="No" name="responce_children" value="NO">
+        <label for="No">No</label><br>
+        </div>
+      </div>
+    </div>
+</form>
+<p>
+    
+</p>
+
+
+<!-- if yes for children-->
+
+<hr class="featurette-divider">
+
+       here
+<hr class="featurette-divider">
+
+
+<form> Numner of children
+    <input type="number" class="form-control" placeholder="no of children"></form>
+
+<!-- for each and every child-->
+
+
+<hr class="featurette-divider">
+
+       here
+<hr class="featurette-divider">
+
+<form>
+    <div class="row">
+      <div class="col">
+          First Name
+        <input type="text" class="form-control" placeholder="First name">
+      </div>
+      <div class="col">
+          Last Name
+        <input type="text" class="form-control" placeholder="Last name">
+      </div>
+    </div>
+</form>
+<p>
+
+</p>
+<form>
+    <div class="row">
+      <div class="col">
+          Age
+        <input type="number" class="form-control" placeholder="Age">
+      </div>
+      <div class="col">
+          Aadhar number
+        <input type="email" class="form-control" placeholder="aadhar number">
+      </div>
+      <div class="col">
+        Studying
+        <div>
+            <input type="radio" id="Yes" name="responce_children_edu" value="Yes">
+            <label for="Yes"><input type="email" class="form-control" placeholder="yes, mention class"></label><br>
+                            
+            <input type="radio" id="No" name="responce_children_edu" value="NO">
+            <label for="No"><input type="email" class="form-control" placeholder="No, mention why"></label><br>
+        </div>
+      
+    </div>
+    </div>
+</form>
+<p>
+
+</p>
+
+
+
+
+
+
+
+
+
+
 
          
         <hr class="featurette-divider">

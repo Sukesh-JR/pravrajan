@@ -32,26 +32,314 @@
 
         
         
-        <div class="topnav">
-            
-            <a class="passive" href="index.html"> HOME </a>
-            <a class="active" href="register_bu.html">Register Your Company Here</a>
-            <a class="passive" href="register_mi.html">Register Yourself here - Migrants</a> 
-            <a class="passive" href="login.html">Login</a>
-            <a class="passive" href="about.html">About Us</a>
-            <a class="passive" href="contact.html">Contact Us</a>
-            <a class="passive" href="list_mi.html">Workers demographics</a>
-            <a class="passive" href="List_co.html">Vacancies</a>
-            <div class="search-container">
-                <form action="/action_page.php">
-                    <input type="text" placeholder="search">
-                    <button type="submit">Submit</button>
-                </form>                
-            </div>
-        </div>
+       
 
          
         <hr class="featurette-divider">
+
+        <form>
+            <div class="row">
+              <div class="col">
+                  Name of the venture
+                <input type="text" class="form-control" placeholder="Name Venture">
+              </div>
+              <div class="col">
+                  About Your Company
+                <input type="text" class="form-control" placeholder="About Us">
+              </div>
+            </div>
+        </form>
+        <p>
+
+        </p>
+
+        <form>
+            <div class="row">
+              <div class="col">
+                  Registration Number
+                <input type="number" class="form-control" placeholder="Registration Number">
+              </div>
+              <div class="col">
+                  Address
+                <input type="text" class="form-control" placeholder="Address">
+              </div>
+            </div>
+        </form>
+        <p>
+
+        </p>
+
+        <form>
+            <div class="row">
+              <div class="col">
+                  City
+                <input type="text" class="form-control" placeholder="City">
+              </div>
+              <div class="col">
+                  Pincode
+                <input type="number" class="form-control" placeholder="Pincode">
+              </div>
+            </div>
+        </form>
+
+        <p>
+        
+        </p>
+
+        <form>
+            <div class="row">
+              <div class="col">
+                 State
+                <input type="text" class="form-control" placeholder="State">
+              </div>
+              <div class="col">
+                  District
+                <input type="text" class="form-control" placeholder="District">
+              </div>
+            </div>
+        </form>
+        <p>
+            
+        </p>
+
+        <form>
+            <div class="row">
+              <div class="col">
+                  Website if any
+                <input type="url" class="form-control" placeholder="Website">
+              </div>
+              <div class="col">
+                  Email for contact
+                <input type="email" class="form-control" placeholder="Email">
+              </div>
+            </div>
+        </form>
+        <p>
+
+        </p>
+
+        <form>
+            <div class="row">
+              <div class="col">
+                  Type of labourers wanted 
+                  <div>
+                  <input type="radio" id="skilled" name="worker type" value="skilled">
+                  <label for="skilled">Skilled</label><br>
+                  <input type="radio" id="Semiskilled" name="worker type" value="Semiskilled">
+                  <label for="semiskilled">Semiskilled</label><br>
+                  <input type="radio" id="Unskilled" name="worker type" value="Unskilled">
+                  <label for="Unskilled">Unskilled</label>
+                </div>
+              </div>
+              <div class="col">
+                  Experience level expected for the labourers
+                <input type="number" class="form-control" placeholder="please give your value in months">
+
+                <label for="Work">What type of workers do you want</label>
+                        <select name="work" id="work">
+                            <option value="1">Agarbatti making</option>
+                            <option value="2">Agriculture</option>
+                            <option value="3">Agriculture machine handling</option>
+                            <option value="4">Anganwadi Workers</option>
+                            <option value="5">animal husbandry</option>
+                            <option value="6">Arrack and Liquor producton and vending</option>
+                            <option value="7">Asha workers</option>
+                            <option value="8">Audio and VIsual Workers</option>
+                            <option value="9">Automobile work</option>
+                         </select>
+              </div>
+            </div>
+        </form>
+        <p>
+
+        </p>
+
+        <form>
+            <div class="row">
+              <div class="col">
+                  Do you have any preference in the state of the migrants ? 
+                  <div>
+                  <input type="radio" id="Yes" name="responce_state" value="Yes">
+                  <label for="Yes"><input type="text" class="form-control" placeholder="Yes, please mention"> </label><br>
+                 
+                  
+                  <input type="radio" id="No" name="responce_state" value="No">
+                  <label for="No">No   __  You choose Pan INDIA </label><br>
+                  
+                 
+                </div>
+              </div>
+              <div class="col">
+                  Job type
+                  <div>
+                  <input type="radio" id="Permanent" name="responce_job" value="Permanent">
+                  <label for="Permanenet">Permanenet</label><br>
+                                  
+                  <input type="radio" id="Temporary" name="responce_job" value="Temporary">
+                  <label for="Temporary">Temporary</label><br>
+                  </div>
+                
+                </div>
+            </div>
+        </form>
+        <p>
+
+        </p>
+
+        <form>
+            <div class="row">
+              <div class="col">
+                  Number of labourers wanted for the job / vacancies
+                <input type="number" class="form-control" placeholder="vacancies">
+              </div>
+              <div class="col">
+                  Salary that you are providing
+                <input type="number" class="form-control" placeholder="Salary">
+              </div>
+            </div>
+        </form>
+        <p>
+
+        </p>
+
+        <form>
+            <div class="row">
+              <div class="col">
+                  Are you giving accomodation
+                  <div>
+                    <input type="radio" id="Yes" name="responce_accomodation" value="Yes">
+                    <label for="Yes">Yes</label><br>
+                   
+                    
+                    <input type="radio" id="No" name="responce_accomodation" value="No">
+                    <label for="No">No  </label><br>
+                    
+                   
+                  </div>
+              </div>
+              <div class="col">
+                  Are you paying their food expences
+                  <div>
+                    <input type="radio" id="Yes" name="responce_food" value="Yes">
+                    <label for="Yes">Yes</label><br>
+                   
+                    
+                    <input type="radio" id="No" name="responce_food" value="No">
+                    <label for="No">No  </label><br>
+                    
+                   
+                  </div>
+              </div>
+            </div>
+        </form>
+        <p>
+
+        </p>
+
+
+        <form>
+            <div class="row">
+              <div class="col">
+                  Extre benefits you are providing 
+                  <div>
+                    <input type="radio" id="PF" name="responce_extra" value="PF">
+                    <label for="PF">PF</label><br>
+                    <input type="radio" id="ESI" name="responce_extra" value="ESI">
+                    <label for="ESI">ESI</label><br>                
+                    <input type="radio" id="others" name="responce_extra" value="others">
+                    <label for="others"><input type="text" class="form-control" placeholder="others, please mention">  </label><br>
+                    
+                   
+                  </div>
+              </div>
+              <div class="col">
+                  Choose the type of people you wanted
+                  <div>
+                    <input type="radio" id="Bachelors" name="responce_people" value="Bachelors">
+                    <label for="Bachelors">Bachelors</label><br>
+                   
+                    
+                    <input type="radio" id="Family" name="responce_people" value="Family">
+                    <label for="Family">Family ( only spouce and chidren )</label><br>
+                                     
+                  </div>
+              </div>
+            </div>
+        </form>
+        <p>
+
+        </p>
+
+
+        <!-- ****** if family then please add this sharuq **** <-->
+        <hr class="featurette-divider">
+        <form>
+            <div class="row">
+              <div class="col">
+                  Are you giving accomodation to the family
+                  <div>
+                    <input type="radio" id="Yes" name="responce_accfam" value="Yes">
+                    <label for="Yes">Yes</label><br>
+                   
+                    
+                    <input type="radio" id="No" name="responce_accfam" value="No">
+                    <label for="No">No  </label><br>
+                    
+                   
+                  </div>
+              </div>
+
+              <div class="col">
+                Are there any educational institutions available for the children of these people
+
+                <div>
+                  <input type="radio" id="Yes" name="responce_edu" value="Yes">
+                  <label for="Yes">Yes</label><br>
+                 
+                  
+                  <input type="radio" id="No" name="responce_edu" value="No">
+                  <label for="No">No  </label><br>
+                  
+                 
+                </div>
+            </div> 
+
+        </div>
+        </form>
+        <p>
+
+        </p>
+
+        <form>
+            
+                
+        Are you willing to give any job to their spouses also 
+        <div>
+        
+        <input type="radio" id="Yes" name="responce_food" value="Yes">
+        <label for="Yes"><input type="text" class="form-control" placeholder="Yes, please mention"></label><br>
+                       
+                        
+        <input type="radio" id="No" name="responce_food" value="No">
+        <label for="No"><input type="text" class="form-control" placeholder="no, can they find jobs nearby"></label><br> 
+            </div>
+        </form>
+        <p>
+
+        </p>
+
+
+
+
+
+        
+
+
+
+
+                
+        
+
          
         <hr class="featurette-divider">
 

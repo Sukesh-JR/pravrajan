@@ -78,7 +78,7 @@ span.psw {
         <img src="titlebar.png" width="100%" height="100%">
     </header>
 <div class="cont">
-<h2>Login Form</h2>
+<h2>Register or Signup</h2>
 
 <form action="/action_page.php" method="post">
   <div class="imgcontainer">
@@ -86,8 +86,8 @@ span.psw {
   </div>
 
   <div class="container">
-    <label for="pnum"><b>Phone Number</b></label>
-    <input type="number" placeholder="Enter Phone number" name="pnum" required>
+    <label for="pnum"><b>Phone number</b></label>
+    <input type="number" placeholder="Enter Phonenumber" name="pnum" required>
 
     <b>Category</b>
     <input type="radio" id="worker" name="category" value="worker" required>
@@ -99,7 +99,7 @@ span.psw {
     <label for="psw"><b>Password</b></label>
     <input type="password" placeholder="Enter Password" name="psw" required>
         
-    <button type="submit">Login</button>
+    <button type="submit">Signup</button>
     <label>
       <input type="checkbox" checked="checked" name="remember"> Remember me
     </label>
@@ -110,7 +110,9 @@ span.psw {
     <a href="index.html">
     <button type="button" class="cancelbtn">Cancel</button>
     </a>
-    <span class="psw"><a href="#"> Forgot password?</a></span>
+    <a href="login.html">
+        <button type="button" class="cancelbtn">Already member then login</button>
+    </a>
   </div>
 </form>
 </div>
